@@ -1,4 +1,4 @@
-import { getRandomInteger } from "../presenter/util";
+import { getRandomInteger } from "../utils";
 
 const CITIES = [
     'Tokyo',

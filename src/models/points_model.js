@@ -1,8 +1,8 @@
-import generatePoint from '../fish-data/point';
+import generatePoint from '../fish_data/point';
 
 class PointsModel {
     constructor() {
-      this.points = Array.from({length: 10}, generatePoint);
+      this.points = Array.from({length: 20}, generatePoint);
     }
   
     getPoints() {
